@@ -1,0 +1,23 @@
+.navbar{
+    background-color: black;
+    height: 9vh;
+    color: white;
+    box-shadow: 0px 9px 20px 0 black;
+}
+.section-list {
+    padding-left: 20vh;
+    padding-top: 1em;
+}
+
+.list-nav {
+color: #62008d;
+font-size: 17px;
+text-align: center;
+width: min-content;
+padding: 10px 10px 5px 10px;
+border-radius: 10px;
+
+}
+.list-nav:hover{
+    color: #9700d8;
+}
