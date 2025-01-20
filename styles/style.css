@@ -14,3 +14,91 @@ h1,h2,h3,h4,h5{
     color: white;
     font-family: monospace;
 }
+header{
+    width: 100vw;
+    height: 100vh;
+}
+
+/*HEADER*/
+
+.all-content{
+    height: 91vh;
+}
+
+.main-presentation{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+
+.text-title{
+    padding-top: 20vh;
+    margin: auto;
+    text-align: center;
+    font-size: 70px;
+    }
+    
+    .text-subtitle{
+        padding: 0px;
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .btn-title{
+        border: 2px solid white;
+        border-radius: 10px;
+        margin-top: 10vh;
+        padding: 20px 60px 20px 60px;
+        background-color: transparent;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .btn-title:hover{
+        border-color: #9700d8;
+        transform: scale(1.02);
+        color: #9700d8;
+    }
+    
+    .navbar{
+        position: sticky;
+        top: 0px;
+        background-color: rgb(132, 132, 132);
+        width: 100%;
+        height: 9vh;
+        color: white;
+        border-bottom: 3.5px solid #62008d;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;;
+    }
+    
+    .section-list {
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-top: 3vh;
+        text-align: center;
+    }
+    
+    .list-nav {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    width: min-content;
+    padding: 10px 60px 5px 60px;
+    border-radius: 10px;
+    
+    }
+    .list-nav:hover{
+        color: #9700d8;
+    }
+
+    /*MAIN*/
+
+    .main-princ {
+        background-color: rgb(181, 181, 181);   
+        height: 200vh;
+    }
