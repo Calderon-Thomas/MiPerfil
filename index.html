@@ -10,24 +10,53 @@
 </head>
 
 <body>
+
     <div class="navbar">
         <section class="section_list">
             <a class="list_nav" href="#header">Inicio</a>
             <a class="list_nav" href="#main">Sobre mi</a>
-            <a class="list_nav" href="">Contacto</a>
+            <a class="list_nav" href="#contact">Contacto</a>
         </section>
     </div>
 
     <header id="header">
-        <div class="all_content">
-            <div class="main_presentation">
-            <h1 class="text_title">Thomás Calderon</h1>
-            <h5 class="text_subtitle">Frontend Developer</h5>
-            <a href="#main" class="btn_title">Ver Más</a>
-            </div>
-    </header>
-    <main id="main">
+        <section class="title">
+                <h1 class="title__item title--">Thomás Calderon</h1>
+                <h5 class="title__item subtitle--">Frontend Developer</h5>
+                <a href="#main" class="btn_title">Ver Más</a>
 
+        </section>
+    </header>
+
+    <main id="main">
+        <section class="about_me">
+            <div class="card_box">
+                <div class="card_presentation">
+                </div>
+                <div class="box_proyects">
+                    <div class="card_lateral">
+                    </div>
+                    <div class="card_proyects">
+                    </div>
+                </div>
+            </div>
+            <div></div>
+        </section>
+        
+        <section class="menu_contact" id="contact">
+            <form class="form_email">
+
+                    <input class="input_name" type="text" placeholder="">
+                    <label class="label_email">Nombre</label>
+
+                    <input class="input_email" type="email" placeholder="">
+                    <label class="label_email">Email</label>
+
+                    <textarea rows="6" id="input_email" class="text_email" placeholder="Escribe el mensaje..."></textarea>
+
+                <button class="btn_sendmail">Enviar</button>
+            </form>
+        </section>
     </main>
 </body>
 </html>
